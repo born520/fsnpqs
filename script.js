@@ -9,7 +9,7 @@ async function fetchData() {
     }
 
     // Google Sheets 데이터를 비동기적으로 가져오기
-    const response = await fetch('https://script.google.com/macros/s/AKfycbwJh55eAwKMubOUmq0N0NtIZ83N4EthpC4hC_QNKwpx2vF8PyLrm05ffwgLYfTSxSA/exec');
+    const response = await fetch('https://script.google.com/macros/s/AKfycbymf7FEOIJ2cp_FfIw8Z4cQi58vypU4_PndCRtmxSeYGexz5lEZiAJQHe2kQs4JYjclFg/exec');
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
